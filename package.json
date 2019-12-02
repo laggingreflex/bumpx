@@ -1,6 +1,6 @@
 {
   "name": "bumpx",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Bump version and create tags like x.x.x",
   "main": "index.js",
   "bin": "bin.js",
