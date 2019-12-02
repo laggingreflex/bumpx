@@ -27,7 +27,7 @@ const { version, operations } = bumpX({
   version: '1.0.0',
   range: 'major' || 'minor' || 'patch',
 })
-operations.run({ dry: true })
+operations.run({ dry: true }) // modify package.json, execute git tag ... etc
 ```
 
 
