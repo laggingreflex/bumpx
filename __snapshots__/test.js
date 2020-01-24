@@ -9,7 +9,9 @@ exports['test 0.0.0 patch 1'] = {
       ["exec", "git tag --delete v0.0.1"],
       ["exec", "git tag v0.0.1"],
       ["exec", "git tag --delete v0.0.x"],
-      ["exec", "git tag v0.0.x"]
+      ["exec", "git tag v0.0.x"],
+      ["exec", "git tag --delete v0.x.x"],
+      ["exec", "git tag v0.x.x"]
     ]
   }
 }
@@ -59,7 +61,9 @@ exports['test 0.0.1 patch 1'] = {
       ["exec", "git tag --delete v0.0.2"],
       ["exec", "git tag v0.0.2"],
       ["exec", "git tag --delete v0.0.x"],
-      ["exec", "git tag v0.0.x"]
+      ["exec", "git tag v0.0.x"],
+      ["exec", "git tag --delete v0.x.x"],
+      ["exec", "git tag v0.x.x"]
     ]
   }
 }
@@ -109,7 +113,9 @@ exports['test 0.1.0 patch 1'] = {
       ["exec", "git tag --delete v0.1.1"],
       ["exec", "git tag v0.1.1"],
       ["exec", "git tag --delete v0.1.x"],
-      ["exec", "git tag v0.1.x"]
+      ["exec", "git tag v0.1.x"],
+      ["exec", "git tag --delete v0.x.x"],
+      ["exec", "git tag v0.x.x"]
     ]
   }
 }
@@ -159,7 +165,9 @@ exports['test 1.0.0 patch 1'] = {
       ["exec", "git tag --delete v1.0.1"],
       ["exec", "git tag v1.0.1"],
       ["exec", "git tag --delete v1.0.x"],
-      ["exec", "git tag v1.0.x"]
+      ["exec", "git tag v1.0.x"],
+      ["exec", "git tag --delete v1.x.x"],
+      ["exec", "git tag v1.x.x"]
     ]
   }
 }
@@ -209,7 +217,9 @@ exports['test 1.0.1 patch 1'] = {
       ["exec", "git tag --delete v1.0.2"],
       ["exec", "git tag v1.0.2"],
       ["exec", "git tag --delete v1.0.x"],
-      ["exec", "git tag v1.0.x"]
+      ["exec", "git tag v1.0.x"],
+      ["exec", "git tag --delete v1.x.x"],
+      ["exec", "git tag v1.x.x"]
     ]
   }
 }
@@ -259,7 +269,9 @@ exports['test 1.1.0 patch 1'] = {
       ["exec", "git tag --delete v1.1.1"],
       ["exec", "git tag v1.1.1"],
       ["exec", "git tag --delete v1.1.x"],
-      ["exec", "git tag v1.1.x"]
+      ["exec", "git tag v1.1.x"],
+      ["exec", "git tag --delete v1.x.x"],
+      ["exec", "git tag v1.x.x"]
     ]
   }
 }
@@ -309,7 +321,9 @@ exports['test 1.1.1 patch 1'] = {
       ["exec", "git tag --delete v1.1.2"],
       ["exec", "git tag v1.1.2"],
       ["exec", "git tag --delete v1.1.x"],
-      ["exec", "git tag v1.1.x"]
+      ["exec", "git tag v1.1.x"],
+      ["exec", "git tag --delete v1.x.x"],
+      ["exec", "git tag v1.x.x"]
     ]
   }
 }

@@ -45,6 +45,8 @@ function main(config = {}) {
       tag();
       version.patch = 'x';
       tag();
+      version.minor = 'x';
+      tag();
     },
   }
 
